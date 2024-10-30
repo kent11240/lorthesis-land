@@ -28,7 +28,7 @@ class CreateCommand(Command):
 
         player = load_player(user_id)
         if player:
-            await message.channel.send(f'<@{user_id}>\n冒險從角色開始！快去創個角色吧，不然我該怎麼稱呼你呢？')
+            await message.channel.send(f'<@{user_id}>\n嘿，勇士！你已經閃亮登場了，不用再刷存在感了！')
             return
 
         player = {
