@@ -1,3 +1,5 @@
+import re
+
 import discord
 
 from commands import register_command
@@ -17,6 +19,11 @@ class CreateCommand(Command):
         if not player_name:
             await message.channel.send(
                 f'<@{user_id}>\n呃...你該不會想當無名氏吧？快給自己取個名字！\n用法：`!create 玩家名稱`')
+            return
+
+        if not re.match(r'^[\u4e00-\u9fa5a-zA-Z0-9]+$', player_name):
+            await message.channel.send(
+                f'<@{user_id}>\n這名字有點超凡脫俗！不過中文、英文和數字才是我們的範圍喔！')
             return
 
         player = load_player(user_id)
