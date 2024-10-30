@@ -1,0 +1,53 @@
+{
+  "peace_town": [
+    {
+      "type": "health_potion",
+      "name": "初級治癒藥水",
+      "description": "適合新手的簡易藥水，能恢復 50 點生命值，讓你在冒險中保持活力。",
+      "price": 10,
+      "heal_amount": 50
+    },
+    {
+      "type": "weapon",
+      "name": "短劍",
+      "description": "別小看它的短小，適合新手的入門武器，增強 5 點攻擊力，踏出冒險第一步！",
+      "price": 50,
+      "attack": 5
+    },
+    {
+      "type": "weapon",
+      "name": "鐵劍",
+      "description": "這把鐵劍鋒利而堅固，增強 15 點攻擊力，讓你在戰場上揮灑自如，堪稱可靠的夥伴！",
+      "price": 200,
+      "attack": 15
+    },
+    {
+      "type": "weapon",
+      "name": "精鋼短劍",
+      "description": "由高級鋼材精工打造的短劍，能增加 35 點攻擊力。既輕便又致命，適合資深冒險者！",
+      "price": 500,
+      "attack": 35
+    },
+    {
+      "type": "armor",
+      "name": "皮甲",
+      "description": "輕便的皮甲，增加 3 點防禦力，給予新手冒險者基本的保護，是步入危險世界的第一層防禦！",
+      "price": 70,
+      "defense": 3
+    },
+    {
+      "type": "armor",
+      "name": "鐵甲",
+      "description": "用堅韌的鐵打造，增加 10 點防禦力。雖然略重，但讓你能更安心面對怪物的攻擊！",
+      "price": 200,
+      "defense": 10
+    },
+    {
+      "type": "armor",
+      "name": "精鋼鎧甲",
+      "description": "由精鋼製成，增加 25 點防禦力。無懼利刃，專為久經沙場的冒險者打造！",
+      "price": 600,
+      "defense": 25
+    }
+  ]
+}

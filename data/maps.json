@@ -1,0 +1,122 @@
+[
+  {
+    "name": "和平小鎮",
+    "coordinate": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "town",
+    "shop": "peace_town"
+  },
+  {
+    "name": "初始平原（北方）",
+    "coordinate": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "type": "field",
+    "base_monster_attribute": "grass_field_1"
+  },
+  {
+    "name": "初始平原（南方）",
+    "coordinate": {
+      "x": 0,
+      "y": -1,
+      "z": 0
+    },
+    "type": "field",
+    "base_monster_attribute": "grass_field_2"
+  },
+  {
+    "name": "初始平原（東方）",
+    "coordinate": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "type": "field",
+    "base_monster_attribute": "grass_field_2"
+  },
+  {
+    "name": "初始平原（西方）",
+    "coordinate": {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    },
+    "type": "field",
+    "base_monster_attribute": "grass_field_1"
+  },
+  {
+    "name": "初始平原（東北方）",
+    "coordinate": {
+      "x": 1,
+      "y": 1,
+      "z": 0
+    },
+    "type": "field",
+    "base_monster_attribute": "grass_field_1"
+  },
+  {
+    "name": "初始平原（東南方）",
+    "coordinate": {
+      "x": 1,
+      "y": -1,
+      "z": 0
+    },
+    "type": "field",
+    "base_monster_attribute": "grass_field_3"
+  },
+  {
+    "name": "初始平原（西北方）",
+    "coordinate": {
+      "x": -1,
+      "y": 1,
+      "z": 0
+    },
+    "type": "field",
+    "base_monster_attribute": "grass_field_1"
+  },
+  {
+    "name": "初始平原（西南方）",
+    "coordinate": {
+      "x": -1,
+      "y": -1,
+      "z": 0
+    },
+    "type": "field",
+    "base_monster_attribute": "grass_field_2"
+  },
+  {
+    "name": "迷霧森林（１）",
+    "coordinate": {
+      "x": 1,
+      "y": -2,
+      "z": 0
+    },
+    "type": "field",
+    "base_monster_attribute": "forest_field_1"
+  },
+  {
+    "name": "迷霧森林（２）",
+    "coordinate": {
+      "x": 1,
+      "y": -3,
+      "z": 0
+    },
+    "type": "field",
+    "base_monster_attribute": "forest_field_2"
+  },
+  {
+    "name": "迷霧森林（３）",
+    "coordinate": {
+      "x": 1,
+      "y": -4,
+      "z": 0
+    },
+    "type": "field",
+    "base_monster_attribute": "forest_field_3"
+  }
+]

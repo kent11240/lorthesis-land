@@ -1,0 +1,50 @@
+{
+  "grass_field_1": {
+    "difficulty": 1,
+    "health": 50,
+    "attack": 5,
+    "defense": 0,
+    "experience": 20,
+    "gold": 10
+  },
+  "grass_field_2": {
+    "difficulty": 2,
+    "health": 60,
+    "attack": 7,
+    "defense": 2,
+    "experience": 30,
+    "gold": 15
+  },
+  "grass_field_3": {
+    "difficulty": 3,
+    "health": 70,
+    "attack": 9,
+    "defense": 4,
+    "experience": 40,
+    "gold": 20
+  },
+  "forest_field_1": {
+    "difficulty": 4,
+    "health": 120,
+    "attack": 25,
+    "defense": 10,
+    "experience": 70,
+    "gold": 35
+  },
+  "forest_field_2": {
+    "difficulty": 5,
+    "health": 150,
+    "attack": 30,
+    "defense": 14,
+    "experience": 90,
+    "gold": 45
+  },
+  "forest_field_3": {
+    "difficulty": 6,
+    "health": 180,
+    "attack": 40,
+    "defense": 18,
+    "experience": 120,
+    "gold": 60
+  }
+}
